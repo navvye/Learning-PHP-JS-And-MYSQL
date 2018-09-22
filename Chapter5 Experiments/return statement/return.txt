@@ -1,0 +1,5 @@
+PHP return statement immediately terminates the execution of a function when it is called from within that function.
+
+This function is also used to terminate the execution of an eval() function or script file.
+
+If this function is called from a global scope, the function stops the execution of the current script
