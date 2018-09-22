@@ -1,0 +1,24 @@
+Question And Answers (Chapter 1)
+
+Question- What four components are used to create a fully dynamic web page?
+Answer- 
+
+A web server (such as Apache), a server-side scripting language (PHP), a database (MySQL), and a client-side scripting language (JavaScript). 
+
+Question- What does HTML stand for?
+
+Answer- HTML stands for hyper text markup language
+
+Question- Why does MYSQL contain the words SQL?
+
+Answer- 
+
+Like nearly all database engines, MySQL accepts commands in Structured Query Language (SQL). Using PHP and MYSQL a user can communicate with the website in various ways such as Login forms etc.
+
+Question- What does CSS Stand for?
+
+Answer- CSS stands for Cascading Style Sheets
+
+Question- List 4 new elements introduced in HTML 5
+
+Answer - <canvas> , <nav> , <section> , <footer>
