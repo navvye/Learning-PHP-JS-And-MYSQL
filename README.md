@@ -6,7 +6,7 @@ My name is Navvye Anand. </h1>
   
   <p>These are the examples of one the books that I have recently read 
   
-  You can buy it online at <a href = "https://www.amazon.in/Learning-MySQL-JavaScript-Mysql-Javascript/dp/1491918667">
+  You can buy it online at <a href = "https://www.amazon.in/Learning-MySQL-JavaScript-Mysql-Javascript/dp/1491918667"/>
   
   
   Also check out my websites <a href = "https://image-moderation.herokuapp.com and https://navvye.github.io/Learning-PHP-JS-And-MYSQL/"
