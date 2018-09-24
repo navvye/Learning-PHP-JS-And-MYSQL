@@ -1,17 +1,20 @@
-Hello 
+<h1> Hello 
 
-My name is Navvye Anand.
+My name is Navvye Anand. </h1>
 
-<h1> I am a budding programmetr from india <h1>
+<h1> I am a budding programmer from india </h1>
   
-  These are the examples of one the books that I have recently read 
+  <p>These are the examples of one the books that I have recently read 
   
-  You can buy it online at https://www.amazon.in/Learning-MySQL-JavaScript-Mysql-Javascript/dp/1491918667
-  
-  
-  Also check out my websites https://image-moderation.herokuapp.com and https://navvye.github.io/Learning-PHP-JS-And-MYSQL/
+  You can buy it online at <a href = "https://www.amazon.in/Learning-MySQL-JavaScript-Mysql-Javascript/dp/1491918667">
   
   
-  Thank You for visiting my repository
+  Also check out my websites <a href = "https://image-moderation.herokuapp.com and https://navvye.github.io/Learning-PHP-JS-And-MYSQL/"
+  </p>
   
-  Have a nice day
+  
+  <span style = color:red;> Thank You for visiting my repository </span>
+  
+ <h2 > Have a nice day </h2> 
+  
+  
