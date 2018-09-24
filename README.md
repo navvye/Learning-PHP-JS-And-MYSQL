@@ -13,7 +13,6 @@ My name is Navvye Anand. </h1>
   </p>
   
   
-  <span style = color:red;> Thank You for visiting my repository </span>
   
  <h2 > Have a nice day </h2> 
   
