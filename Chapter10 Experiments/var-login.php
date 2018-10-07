@@ -1,6 +1,6 @@
-<?php // login.php
-  $hn = 'localhost';
-  $db = 'publications';
-  $un = 'root'; 
-  $pw = '';
+<?php 
+  $hostName = 'localhost';
+  $database = 'chess';
+  $username = 'root'; 
+  $password = '';
 ?>
