@@ -5,9 +5,9 @@
 
   $query = "CREATE TABLE chessData (
     number INT NOT NULL AUTO_INCREMENT,
-    family VARCHAR(32) NOT NULL,
-    name VARCHAR(32) NOT NULL,
-    age INT NOT NULL,
+    san CHAR(4) NOT NULL,
+    fen VARCHAR(32) NOT NULL,
+    gameId INT(2) NOT NULL,
     PRIMARY KEY (id)
   )";
 
