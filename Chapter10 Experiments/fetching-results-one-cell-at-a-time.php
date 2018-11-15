@@ -1,6 +1,6 @@
 <?php // query.php
   require_once 'login.php';
-  $conn = new mysqli($hn, $un, $pw, $db);
+  $conn = new mysqli($hostname, $username, $password, $database);
   if ($conn->connect_error) die("Fatal Error");
 $createTable = "CREATE TABLE `chess`.`chessData` ( `moveNumber` INT(3) NOT NULL , `san` CHAR(4) NOT NULL , `fen` CHAR(100) NOT NULL , `gameId` CHAR(3) NOT NULL , `fromSquare` CHAR(2) NOT NULL , `toSquare` CHAR(2) NOT NULL , `color` CHAR(1) NOT NULL , `piece` CHAR(1) NOT NULL ) ENGINE = InnoDB;";
   $query  = "SELECT * FROM classics";
