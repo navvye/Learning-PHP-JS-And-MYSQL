@@ -1,10 +1,10 @@
-PREPARE statement FROM "INSERT INTO classics VALUES(?,?,?,?,?)";
+PREPARE statement FROM "INSERT INTO chessData VALUES(?,?,?,?,?)";
 
-SET @author   = "Emily Brontë",
-    @title    = "Wuthering Heights",
-    @category = "Classic Fiction",
-    @year     = "1847",
-    @isbn     = "9780553212587";
+SET @san   = "e4",
+    @fen   = "rnbqkbnr/pppppppp/8/8/8/8/PPPPP3/RNBQKBNR w KQkq -",
+    @gameId = "88",
+    @color     = "w",
+    @piece    = "p";
 
 EXECUTE statement USING @author,@title,@category,@year,@isbn;
 DEALLOCATE PREPARE statement;
