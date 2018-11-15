@@ -10,7 +10,7 @@
   $rows = $result->num_rows;
   echo "<table><tr><th>Column</th><th>Type</th><th>Null</th><th>Key</th></tr>";
 
-  for ($j = 0 ; $j < $rows ; ++$j)
+  for ($j = 0 ; $j < $rows ; $j++)
   {
     $row = $result->fetch_array(MYSQLI_NUM);
 
