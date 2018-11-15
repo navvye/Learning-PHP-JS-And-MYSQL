@@ -5,6 +5,6 @@
   
   $query  = "INSERT INTO chess(san,fen,gameId,color,piece,fromSquare,toSquare) VALUES(e4, 'rnbqkbnr/pppppppp/8/8/4P3/8/PPPP1P1P/RNBQKBNR w KQkq', '77', 'w','p','e2','e4')";
   $result = $conn->query($query);
-  if (!$result) die ("Database access failed There is an error in the code");
+  if (!$result) die ("Database access failed cannot connect to MySQL");
 
 ?>
